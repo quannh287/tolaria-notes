@@ -145,6 +145,7 @@ _sheet:
       num_fmt: "0.00%"
     I10:
       wrap_text: true
+_archived: true
 ---
 Workstream,Owner,Status,June,July,August,Q3 total,Trend,Related note
 Editor polish,[[luca-rossi]],Active,4,6,8,=SUM(D2:F2),=F2-D2,[[tolaria-editor]]

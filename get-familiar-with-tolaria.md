@@ -10,7 +10,7 @@ Use this checklist to explore Tolaria and learn how it works.
 
 `Cmd+click` on wikilinks to navigate 👇
 
-- [ ] **Read the** [[tolaria-principles|Tolaria Principles]] — understand the core philosophy
+- [x] **Read the** [[tolaria-principles|Tolaria Principles]] — understand the core philosophy
 - [ ] **Explore the** [[tolaria-sidebar]] — learn Inbox, All Notes, Archive, Favorites, Types, Folders
 - [ ] **Browse the** [[tolaria-note-list]] — sorting, display properties, search within list
 - [ ] **Try the** [[tolaria-editor|Editor]] — WYSIWYG vs raw mode (Cmd+/), wikilinks with [[, H1-to-filename sync

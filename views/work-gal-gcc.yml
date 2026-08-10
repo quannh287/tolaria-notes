@@ -1,0 +1,12 @@
+name: GAL-GCC Tasks
+icon: rocket
+color: green
+sort: modified:desc
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Task
+    - field: project
+      op: equals
+      value: gal-gcc

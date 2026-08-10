@@ -3,6 +3,7 @@ type: Person
 url: https://refactoring.fm
 _organized: true
 related_to: "[[tolaria]]"
+role: Author of Tolaria
 ---
 # Luca Rossi
 

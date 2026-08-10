@@ -1,0 +1,12 @@
+name: KAI-GO Tasks
+icon: rocket
+color: blue
+sort: modified:desc
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Task
+    - field: project
+      op: equals
+      value: kai-go

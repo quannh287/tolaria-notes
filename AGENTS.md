@@ -1,6 +1,7 @@
 ---
 type: Note
 _organized: true
+_archived: true
 ---
 # AGENTS.md — Tolaria Vault
 
@@ -89,6 +90,68 @@ filters:
 ## Filenames
 
 Use kebab-case: `my-note-title.md`. One note per file.
+
+## Work Management System
+
+Vault sử dụng Sprint workflow hàng tuần với 3 loại note chính:
+
+### Task
+```yaml
+---
+type: Task
+status: Todo          # Todo | In Progress | Blocked | Clarify | Done
+priority: High        # High | Medium | Low
+project: kai-go       # kai-go | gal-gcc | digital-library
+sprint: "[[sprint-2026-w27]]"
+estimate: "4h"
+Belongs to:
+  - "[[kai-go]]"
+---
+# Tên task
+```
+
+### Sprint
+```yaml
+---
+type: Sprint
+status: Active
+week: "2026-W27"
+start date: 2026-06-30
+end date: 2026-07-04
+color: "#f59e0b"
+Belongs to:
+  - "[[2026-q3]]"
+---
+# Sprint 2026-W27
+```
+- Sprint notes dùng `_display: sheet` để hiện dạng spreadsheet planning board.
+- Filename convention: `sprint-YYYY-www.md` (e.g. `sprint-2026-w28.md`).
+
+### Daily Log
+```yaml
+---
+type: Daily Log
+Belongs to:
+  - "[[sprint-2026-w27]]"
+---
+# 2026-06-30 Daily
+```
+- Filename convention: `YYYY-MM-DD-daily.md`.
+- Template: `## Done today`, `## Blocked / Clarify`, `## Tomorrow`.
+
+### Projects (Work context)
+```yaml
+---
+type: Project
+status: In progress
+context: Work
+capacity: 50%         # % thời gian dành cho project này
+color: "#3b82f6"
+Belongs to:
+  - "[[2026-q3]]"
+---
+```
+Projects hiện tại: `kai-go` (50%), `gal-gcc` (40%), `digital-library` (10%).
 
 ## What agents should do
 

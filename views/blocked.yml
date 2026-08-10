@@ -1,0 +1,15 @@
+name: 🚧 Blocked & Clarify
+icon: alert-triangle
+color: red
+sort: modified:desc
+filters:
+  any:
+    - field: type
+      op: equals
+      value: Task
+  all:
+    - field: status
+      op: in
+      value:
+        - Blocked
+        - Clarify

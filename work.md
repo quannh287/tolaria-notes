@@ -1,11 +1,11 @@
 ---
 type: Type
-_icon: rocket
+_icon: briefcase
 _color: "#3b82f6"
-_order: 0
+_order: 6
 _list_properties_display:
   - status
-  - capacity
-  - context
+  - project
 ---
-# Project
+
+# Work
