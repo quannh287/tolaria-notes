@@ -6,6 +6,7 @@ capacity: 10%
 color: "#f97316"
 Belongs to:
   - "[[2026-q3]]"
+_organized: true
 ---
 
 # Digital Library

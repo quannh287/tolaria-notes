@@ -37,6 +37,7 @@ _sheet:
       bold: true
     F1:
       bold: true
+_organized: true
 ---
 
 Task,Project,Priority,Estimate,Status,Note
